@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    
+}
+.hi{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}
+#welcome{
+    
+    display: table;
+    height:500px;
+    color:darkblue;
+    background: linear-gradient(red,yellow);   
+   z-index: 9;
+
+#name{
+    font-size:30px;
+}
+#bio{
+    font-size:30px;
+    padding: 50px;
+}
+.line{
+    height:5px
+        width:100px;
+    background-color:black;
+    
+}
+.jeff{
+   position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+    .menu{
+        list-style: none;
+        float: left;
+        top:0px;
+        margin-top: 0px;
+        position: fixed;
+        z-index: 10;
+        
+        cursor: pointer;
+        
+    }
+    .links{
+        display:inline;
+        
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .links:hover
+    {
+    background-color:orangered;
+        text-decoration: underline;
+    }
+    
+    ]
